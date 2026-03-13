@@ -37,7 +37,7 @@ public class AerolineaController {
 
         try{
 
-            URL url = URI.create("https://practica-ii-cmsf.onrender.com").toURL();
+            URL url = URI.create("https://practica-ii-cmsf.onrender.com/aerolineas").toURL();
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
             conn.setRequestMethod("POST");
